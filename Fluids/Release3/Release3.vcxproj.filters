@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorManagement.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex06.01-Main.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSLimiter.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSLProgram.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLBuffers.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="parserAse.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorManagement.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSLimiter.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLProgram.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLBuffers.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="parserAse.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Springs.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloth.h">
+      <Filter>Heareds</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\shaders\fragment-shader.txt">
+      <Filter>External</Filter>
+    </Text>
+    <Text Include="resources\scene2D.txt">
+      <Filter>External</Filter>
+    </Text>
+    <Text Include="resources\shaders\vertex-shader.txt">
+      <Filter>External</Filter>
+    </Text>
+    <Text Include="resources\gameObjects.txt">
+      <Filter>External</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Heareds">
+      <UniqueIdentifier>{db7b350a-4815-45d9-ad6d-6a3b01c74442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{7ccb7982-3592-4d1f-86d9-025a6c76a95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp">
+      <UniqueIdentifier>{c60a8530-f660-4a85-b09d-ba04ddeb1a2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\models\tank.ASE">
+      <Filter>External</Filter>
+    </None>
+  </ItemGroup>
+</Project>

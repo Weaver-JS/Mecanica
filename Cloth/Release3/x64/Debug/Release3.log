@@ -1,0 +1,99 @@
+﻿Build started 06/05/2016 15:27:12.
+     1>Project "C:\Users\Weaver\Desktop\Mecnanica\Cloth\Release3\Release3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Weaver\Desktop\Mecnanica\Cloth\\..\deps\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Camera.cpp ErrorManagement.cpp "Ex06.01-Main.cpp" FPSLimiter.cpp Game.cpp Geometry.cpp GLSLProgram.cpp InputManager.cpp ObjectLoader.cpp OpenGLBuffers.cpp parserAse.cpp Particle.cpp Window.cpp
+         Window.cpp
+         Particle.cpp
+         parserAse.cpp
+     1>c:\users\weaver\desktop\mecnanica\cloth\release3\parserase.cpp(684): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\weaver\desktop\mecnanica\cloth\release3\parserase.cpp(689): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+         OpenGLBuffers.cpp
+         ObjectLoader.cpp
+     1>c:\users\weaver\desktop\mecnanica\cloth\release3\objectloader.cpp(25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+         InputManager.cpp
+         GLSLProgram.cpp
+         Geometry.cpp
+     1>c:\users\weaver\desktop\mecnanica\cloth\release3\geometry.h(46): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\weaver\desktop\mecnanica\cloth\release3\geometry.cpp(199): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+         Game.cpp
+     1>c:\users\weaver\desktop\mecnanica\cloth\release3\geometry.h(46): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+         FPSLimiter.cpp
+         Ex06.01-Main.cpp
+     1>c:\users\weaver\desktop\mecnanica\cloth\release3\geometry.h(46): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+         ErrorManagement.cpp
+         Camera.cpp
+     1>c:\users\weaver\desktop\mecnanica\cloth\release3\camera.cpp(13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Weaver\Desktop\Mecnanica\Cloth\x64\Debug\Release3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Weaver\Desktop\Mecnanica\Cloth\x64\Debug\Release3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Weaver\Desktop\Mecnanica\Cloth\x64\Debug\Release3.lib" /MACHINE:X64 x64\Debug\Camera.obj
+         x64\Debug\ErrorManagement.obj
+         "x64\Debug\Ex06.01-Main.obj"
+         x64\Debug\FPSLimiter.obj
+         x64\Debug\Game.obj
+         x64\Debug\Geometry.obj
+         x64\Debug\GLSLProgram.obj
+         x64\Debug\InputManager.obj
+         x64\Debug\ObjectLoader.obj
+         x64\Debug\OpenGLBuffers.obj
+         x64\Debug\parserAse.obj
+         x64\Debug\Particle.obj
+         x64\Debug\Window.obj
+     1>ErrorManagement.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: static void __cdecl ErrorManagement::errorRunTime(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?errorRunTime@ErrorManagement@@SAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>FPSLimiter.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: __cdecl FPSLimiter::FPSLimiter(bool,int,bool)" (??0FPSLimiter@@QEAA@_NH0@Z)
+     1>Game.obj : error LNK2001: unresolved external symbol SDL_GetTicks
+     1>FPSLimiter.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: void __cdecl FPSLimiter::forceSynchronization(void)" (?forceSynchronization@FPSLimiter@@QEAAXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "private: void __cdecl Game::renderGame(void)" (?renderGame@Game@@AEAAXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol __imp_glPolygonMode referenced in function "private: void __cdecl Game::renderGame(void)" (?renderGame@Game@@AEAAXXZ)
+     1>Game.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "private: void __cdecl Game::processInput(void)" (?processInput@Game@@AEAAXXZ)
+     1>Game.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewBindAttribLocation
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewDetachShader
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewDisableVertexAttribArray
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+     1>OpenGLBuffers.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewGetAttribLocation
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+     1>GLSLProgram.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+     1>OpenGLBuffers.obj : error LNK2019: unresolved external symbol __imp_glDrawArrays referenced in function "public: void __cdecl OpenGLBuffers::sendDataToGPU(struct Vertex *,int)" (?sendDataToGPU@OpenGLBuffers@@QEAAXPEAUVertex@@H@Z)
+     1>OpenGLBuffers.obj : error LNK2019: unresolved external symbol __imp_glPointSize referenced in function "public: void __cdecl OpenGLBuffers::sendDataToGPU(struct Vertex *,int)" (?sendDataToGPU@OpenGLBuffers@@QEAAXPEAUVertex@@H@Z)
+     1>OpenGLBuffers.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+     1>OpenGLBuffers.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+     1>OpenGLBuffers.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+     1>OpenGLBuffers.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+     1>OpenGLBuffers.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+     1>OpenGLBuffers.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+     1>OpenGLBuffers.obj : error LNK2001: unresolved external symbol __imp___glewDeleteVertexArrays
+     1>OpenGLBuffers.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+     1>Window.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: int __cdecl Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>Window.obj : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function "public: __cdecl Window::Window(void)" (??0Window@@QEAA@XZ)
+     1>Window.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function "public: int __cdecl Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>Window.obj : error LNK2019: unresolved external symbol SDL_GL_SetSwapInterval referenced in function "public: int __cdecl Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>Window.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function "public: void __cdecl Window::swapBuffer(void)" (?swapBuffer@Window@@QEAAXXZ)
+     1>Window.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: __cdecl Window::Window(void)" (??0Window@@QEAA@XZ)
+     1>Window.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "public: int __cdecl Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>Window.obj : error LNK2019: unresolved external symbol __imp_glClearDepth referenced in function "public: int __cdecl Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>Window.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function "public: int __cdecl Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>Window.obj : error LNK2019: unresolved external symbol __imp_glGetString referenced in function "public: int __cdecl Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>Window.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "public: int __cdecl Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>Window.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "public: int __cdecl Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>Window.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+     1>MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+     1>C:\Users\Weaver\Desktop\Mecnanica\Cloth\x64\Debug\Release3.exe : fatal error LNK1120: 50 unresolved externals
+     1>Done Building Project "C:\Users\Weaver\Desktop\Mecnanica\Cloth\Release3\Release3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.90

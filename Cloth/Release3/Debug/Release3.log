@@ -1,0 +1,22 @@
+﻿Build started 06/05/2016 15:29:03.
+     1>Project "C:\Users\Weaver\Desktop\Mecnanica\Cloth\Release3\Release3.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Weaver\Desktop\Mecnanica\Cloth\Debug\Release3.exe" /INCREMENTAL /NOLOGO sdl2.lib sdl2main.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Weaver\Desktop\Mecnanica\Cloth\Debug\Release3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Weaver\Desktop\Mecnanica\Cloth\Debug\Release3.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\ErrorManagement.obj
+         "Debug\Ex06.01-Main.obj"
+         Debug\FPSLimiter.obj
+         Debug\Game.obj
+         Debug\Geometry.obj
+         Debug\GLSLProgram.obj
+         Debug\InputManager.obj
+         Debug\ObjectLoader.obj
+         Debug\OpenGLBuffers.obj
+         Debug\parserAse.obj
+         Debug\Particle.obj
+         Debug\Window.obj
+         Release3.vcxproj -> C:\Users\Weaver\Desktop\Mecnanica\Cloth\Debug\Release3.exe
+     1>Done Building Project "C:\Users\Weaver\Desktop\Mecnanica\Cloth\Release3\Release3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.53

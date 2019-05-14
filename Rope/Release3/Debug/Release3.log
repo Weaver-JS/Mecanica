@@ -1,0 +1,40 @@
+﻿Build started 06/05/2016 15:32:45.
+     1>Project "C:\Users\Weaver\Desktop\Mecnanica\Rope\Release3\Release3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\Weaver\Desktop\Mecnanica\Rope\\..\deps\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp ErrorManagement.cpp "Ex06.01-Main.cpp" FPSLimiter.cpp Game.cpp Geometry.cpp GLSLProgram.cpp InputManager.cpp ObjectLoader.cpp OpenGLBuffers.cpp parserAse.cpp Particle.cpp Window.cpp
+         Window.cpp
+         Particle.cpp
+         parserAse.cpp
+         OpenGLBuffers.cpp
+         ObjectLoader.cpp
+         InputManager.cpp
+         GLSLProgram.cpp
+         Geometry.cpp
+         Game.cpp
+         FPSLimiter.cpp
+         Ex06.01-Main.cpp
+         ErrorManagement.cpp
+         Camera.cpp
+     1>c:\users\weaver\desktop\mecnanica\rope\release3\camera.cpp(13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Weaver\Desktop\Mecnanica\Rope\Debug\Release3.exe" /INCREMENTAL /NOLOGO sdl2.lib sdl2main.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Weaver\Desktop\Mecnanica\Rope\Debug\Release3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Weaver\Desktop\Mecnanica\Rope\Debug\Release3.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\ErrorManagement.obj
+         "Debug\Ex06.01-Main.obj"
+         Debug\FPSLimiter.obj
+         Debug\Game.obj
+         Debug\Geometry.obj
+         Debug\GLSLProgram.obj
+         Debug\InputManager.obj
+         Debug\ObjectLoader.obj
+         Debug\OpenGLBuffers.obj
+         Debug\parserAse.obj
+         Debug\Particle.obj
+         Debug\Window.obj
+         Release3.vcxproj -> C:\Users\Weaver\Desktop\Mecnanica\Rope\Debug\Release3.exe
+     1>Done Building Project "C:\Users\Weaver\Desktop\Mecnanica\Rope\Release3\Release3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.38
